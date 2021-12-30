@@ -1,0 +1,26 @@
+{
+    "name": "th-zhou/esorm",
+    "description": "es orm",
+    "keywords": [
+        "elasticsearch",
+        "orm"
+    ],
+    "type": "library",
+    "authors": [
+        {
+            "name": "TH-zhou",
+            "email": "1260597728@qq.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "elasticsearch/elasticsearch": "~7.0",
+        "illuminate/support": "^5.3|^6.0|^7.0|^8.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "EsORM\\": "src/EsORM/"
+        }
+    }
+}
